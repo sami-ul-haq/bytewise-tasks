@@ -1,3 +1,4 @@
+// Passing event handlers as props
 const AlertButton = ({ message, children }) => {
   return <button onClick={() => alert(message)}>{children}</button>;
 };
