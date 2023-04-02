@@ -11,6 +11,7 @@ const Home = () => {
         <li>
           <Link to="/responding-to-events">Responding to Events</Link>
           <Link to="/conditional-rendering">Conditionla Rendering</Link>
+          <Link to="/rendering-list">Rendering Lists</Link>
         </li>
       </ul>
     </nav>

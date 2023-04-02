@@ -16,11 +16,11 @@ const ConditionalRendering = () => {
       <button onClick={foodRender}>
         Click Here to Render Fast Food Products List
       </button>
-      <div className="foodItems">
+      <div className="listItems">
 
       {toggle &&
         myFood.map((item) => (
-            <div key={item.id} className="foodItem">
+            <div key={item.id} className="listItem">
             <p>{item.title}</p>
             <p>{item.price > 200 ? item.price + "❤️" : item.price}</p>
           </div>
