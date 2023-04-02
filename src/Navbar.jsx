@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Home = () => {
+const Navbar = () => {
   return (
     <nav>
       <ul>
@@ -10,7 +10,11 @@ const Home = () => {
         </li>
         <li>
           <Link to="/responding-to-events">Responding to Events</Link>
-          <Link to="/conditional-rendering">Conditionla Rendering</Link>
+        </li>
+        <li>
+          <Link to="/conditional-rendering">Conditional Rendering</Link>
+        </li>
+        <li>
           <Link to="/rendering-list">Rendering Lists</Link>
         </li>
       </ul>
@@ -18,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Navbar;
