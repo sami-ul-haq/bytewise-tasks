@@ -1,0 +1,18 @@
+.foodItems{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+}
+
+.foodItem{
+    border: 1px solid red;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 576px){
+    .foodItems{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}

@@ -10,6 +10,7 @@ const Home = () => {
         </li>
         <li>
           <Link to="/responding-to-events">Responding to Events</Link>
+          <Link to="/conditional-rendering">Conditionla Rendering</Link>
         </li>
       </ul>
     </nav>
