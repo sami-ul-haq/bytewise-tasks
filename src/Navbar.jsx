@@ -17,6 +17,9 @@ const Navbar = () => {
         <li>
           <Link to="/rendering-list">Rendering Lists</Link>
         </li>
+        <li>
+          <Link to="/react-routing">React Routing</Link>
+        </li>
       </ul>
     </nav>
   );

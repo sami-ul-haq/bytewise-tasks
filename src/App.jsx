@@ -17,6 +17,7 @@ const App = () => {
           <Route path="/responding-to-events" element={<Task4 />} />
           <Route path="/conditional-rendering" element={<ConditionalRendering />} />
           <Route path="/rendering-list" element={<RenderingLists />} />
+          <Route path="/react-routing" element={<RenderingLists />} />
           <Route path="/food/:title" element={<Food />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
