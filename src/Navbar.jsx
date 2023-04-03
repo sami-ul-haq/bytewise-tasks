@@ -20,6 +20,9 @@ const Navbar = () => {
         <li>
           <Link to="/react-routing">React Routing</Link>
         </li>
+        <li>
+          <Link to="/usestate-useeffect">UseState - UseEffect</Link>
+        </li>
       </ul>
     </nav>
   );
