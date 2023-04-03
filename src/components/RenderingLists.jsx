@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { bakeryItemProducts, fastFoodProducts } from "../db";
 
 const RenderingLists = () => {
@@ -13,6 +14,7 @@ const RenderingLists = () => {
           <div key={item.id} className="listItem">
             <p>{item.title}</p>
             <p>{item.price > 200 ? item.price + "❤️" : item.price}</p>
+            <Link to={`/food/${item.title}`} >View More</Link>
           </div>
         ))}
       </div>
