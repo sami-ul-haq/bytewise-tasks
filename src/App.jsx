@@ -8,6 +8,8 @@ import Navbar from "./Navbar";
 import Home from "./components/Home";
 import Food from "./components/Food";
 import Counter from "./components/Counter";
+import ExpenseTracker from "./components/ExpenseTracker";
+import RecipeApp from "./components/RecipeApp";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route path="/react-routing" element={<RenderingLists />} />
           <Route path="/food/:title" element={<Food />} />
           <Route path="/usestate-useeffect" element={<Counter />} />
+          <Route path="/expense-tracker" element={<ExpenseTracker />} />
+          <Route path="/recipe-project" element={<RecipeApp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
